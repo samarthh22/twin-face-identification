@@ -1,0 +1,46 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Private images, downloaded models, and generated outputs
+data/
+photos/
+checkpoints/
+runs/
+logs/
+output/
+tmp/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.part
+*.log
+*.zip
+*.tar*
+
+# Documentation policy: only the root README is published
+*.md
+*.MD
+!/README.md
+docs/
+*.pdf
+*.PDF
+*.docx
+*.doc
+*HANDOFF*
+*REPORT*
+
+# Credentials and machine-specific files
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{
+  "model": "AdaFace IR50 with normalized multi-photo enrollment",
+  "input_contract": "BGR uint8 112x112 /127.5 -1",
+  "threshold": 0.12583553791046143,
+  "maximum_enrollment_photos": 3,
+  "inference": "native, no TTA",
+  "weights": "checkpoints/adaface_ir50_webface4m.ckpt",
+  "weights_format": "adaface_checkpoint",
+  "encoder_sha256": "52cca7c64808fea6f44f9b9aee2b0e091bf96c1ab4f6e31bedcdf5d77009b4f8",
+  "threshold_source": "Clean FIW calibration families; validate separately for a new dataset"
+}
